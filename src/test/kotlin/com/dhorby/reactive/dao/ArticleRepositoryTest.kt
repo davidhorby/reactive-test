@@ -33,18 +33,18 @@ class ArticleRepositoryTest {
     fun setUp() {
         operations!!.collectionExists(Article::class)
                 .flatMap{ exists -> if (exists) operations!!.dropCollection(Article::class) else Mono.just(exists!!) }
-                .flatMap{ o ->
+                .flatMap{
                     operations!!.createCollection(Article::class.java,
                             CollectionOptions.empty().size((1024 * 1024).toLong()).maxDocuments(100).capped())
                 }
                 .then()
                 .block()
 
-        dao!!.saveAll(Flux.just(Article(Integer(1), "James", "Kirk"),
-                Article(Integer(2), "Jean-Luc", "Picard"),
-                Article(Integer(3), "Benjamin", "Sisko"),
-                Article(Integer(4), "Kathryn", "Janeway"),
-                Article(Integer(5), "Jonathan", "Archer")))
+        dao!!.saveAll(Flux.just(Article("1", "James", "Kirk"),
+                Article("2", "Jean-Luc", "Picard"),
+                Article("3", "Benjamin", "Sisko"),
+                Article("4", "Kathryn", "Janeway"),
+                Article("5", "Jonathan", "Archer")))
                 .then()
                 .block()
 
@@ -52,10 +52,10 @@ class ArticleRepositoryTest {
 
     @Test
     fun testSave() {
-        var article = Article(Integer(11), "Nyota", "Uhuru")
+        var article = Article("11", "Nyota", "Uhuru")
         article = dao!!.save(article).block(Duration.ofSeconds(2))
-        assertNotNull(Objects.requireNonNull(article).articleId)
-        assertEquals(Integer(11), article.articleId)
+        assertNotNull(Objects.requireNonNull(article).id)
+        assertEquals("11", article.id)
         assertEquals("Nyota", article.title)
         assertEquals("Uhuru", article.description)
     }

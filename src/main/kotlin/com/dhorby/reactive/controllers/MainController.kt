@@ -3,10 +3,9 @@ package com.dhorby.reactive.controllers
 import com.dhorby.reactive.dao.ArticleRepository
 import com.dhorby.reactive.entities.Article
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.http.HttpStatus
+import org.springframework.web.bind.annotation.*
+import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
 @RestController
@@ -16,9 +15,21 @@ class MainController() {
     @Autowired
     private val repository:ArticleRepository? = null
 
+
     @GetMapping("{id}")
-    fun getOfficer(@PathVariable id: Integer): Mono<Article> {
+    fun getArticle(@PathVariable id: String): Mono<Article> {
         return repository!!.findById(id)
+    }
+
+    @GetMapping("/articles")
+    fun list(): Flux<Article> {
+        return repository!!.findAll()
+    }
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    fun saveArticle(@RequestBody article: Article): Mono<Article> {
+        return repository!!.save(article)
     }
 
 

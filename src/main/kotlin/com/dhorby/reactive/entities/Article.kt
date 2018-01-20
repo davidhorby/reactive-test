@@ -4,4 +4,20 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
 @Document
-data class Article(@Id val articleId:Integer, val title:String, val description:String)
+class Article{
+
+
+    @Id
+    var id:String?  = null
+    var title:String? = null
+    var description:String? = null
+
+    constructor() {}
+
+    constructor(id: String, first: String, last: String) {
+        this.id = id
+        this.title = first
+        this.description = last
+    }
+
+}
