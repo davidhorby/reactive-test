@@ -14,10 +14,10 @@ class Article{
 
     constructor() {}
 
-    constructor(id: String, first: String, last: String) {
+    constructor(id: String, title: String, description: String) {
         this.id = id
-        this.title = first
-        this.description = last
+        this.title = title
+        this.description = description
     }
 
 }
