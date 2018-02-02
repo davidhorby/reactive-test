@@ -27,27 +27,27 @@ import java.util.stream.Collectors
 class ArticleRepositoryTest {
 
     @Autowired
-    private val dao: ArticleRepository? = null
+    private lateinit var dao: ArticleRepository
 
     @Autowired
-    private val operations: ReactiveMongoOperations? = null
+    private lateinit var operations: ReactiveMongoOperations
 
     @Before
     fun setUp() {
-        operations!!.collectionExists(Article::class)
-                .flatMap{ exists -> if (exists) operations!!.dropCollection(Article::class) else Mono.just(exists!!) }
+        operations.collectionExists(Article::class)
+                .flatMap{ exists -> if (exists) operations.dropCollection(Article::class) else Mono.just(exists!!) }
                 .flatMap{
-                    operations!!.createCollection(Article::class.java,
+                    operations.createCollection(Article::class.java,
                             CollectionOptions.empty().size((1024 * 1024).toLong()).maxDocuments(100).capped())
                 }
                 .then()
                 .block()
 
-        dao!!.saveAll(Flux.just(Article("1", "Title 1", "Desc 1"),
-                Article("2", "Title 2", "Desc 2"),
-                Article("3", "Title 3", "Desc 3"),
-                Article("4", "Title 4", "Desc 4"),
-                Article("5", "Title 5", "Desc 5")))
+        dao.saveAll(Flux.just(Article("1", "Title 1", "Desc 1","link","01/01/2015"),
+                Article("2", "Title 2", "Desc 2", "link","01/01/2015"),
+                Article("3", "Title 3", "Desc 3", "link","01/01/2015"),
+                Article("4", "Title 4", "Desc 4", "link","01/01/2015"),
+                Article("5", "Title 5", "Desc 5", "link","01/01/2015")))
                 .then()
                 .block()
 
@@ -55,8 +55,8 @@ class ArticleRepositoryTest {
 
     @Test
     fun testSave() {
-        var article = Article("11", "No news today", "Nothing happened")
-        article = dao!!.save(article).block(Duration.ofSeconds(2))
+        var article = Article("11", "No news today", "Nothing happened", "link", "01/01/2015")
+        article = dao.save(article).block(Duration.ofSeconds(2))
         assertNotNull(Objects.requireNonNull(article).id)
         assertEquals("11", article.id)
         assertEquals("No news today", article.title)
@@ -65,12 +65,12 @@ class ArticleRepositoryTest {
 
     @Test
     fun testUpdate() {
-        var article = Article("22", "Article title", "Article title")
-        article = dao!!.save(article).block(Duration.ofSeconds(2))
+        var article = Article("22", "Article title", "Article title", "link", "01/01/2015")
+        article = dao.save(article).block(Duration.ofSeconds(2))
         assertNotNull(Objects.requireNonNull(article).id)
         article.title = "New title"
         article.description = "New description"
-        article = dao!!.save(article).block(Duration.ofSeconds(2))
+        article = dao.save(article).block(Duration.ofSeconds(2))
         assertEquals("22", article.id)
         assertEquals("New title", article.title)
         assertEquals("New description", article.description)
@@ -78,8 +78,8 @@ class ArticleRepositoryTest {
 
     @Test
     fun findAll() {
-        val dbNames = dao!!.findAll()
-                .map { article -> article.description }
+        val dbNames = dao.findAll()
+                .map { article -> article?.description }
                 .collect(Collectors.toList()).block()
         assertThat(dbNames, containsInAnyOrder<String>("Desc 1", "Desc 2", "Desc 3", "Desc 4", "Desc 5"))
     }

@@ -24,11 +24,11 @@ class ArticleInit(private val operations: ReactiveMongoOperations, private val d
                 .then()
                 .block()
 
-        dao.saveAll(Flux.just(Article("1", "James", "Kirk"),
-                Article("2", "Jean-Luc", "Picard"),
-                Article("3", "Benjamin", "Sisko"),
-                Article("4", "Kathryn", "Janeway"),
-                Article("5", "Jonathan", "Archer")))
+        dao.saveAll(Flux.just(Article("1", "James", "Kirk", "link", "01/01/2015"),
+                Article("2", "Jean-Luc", "Picard",  "link","01/01/2015"),
+                Article("3", "Benjamin", "Sisko", "link","01/01/2015"),
+                Article("4", "Kathryn", "Janeway",  "link","01/01/2015"),
+                Article("5", "Jonathan", "Archer",  "link","01/01/2015")))
                 .then()
                 .block()    }
 }

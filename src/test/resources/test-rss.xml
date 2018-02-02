@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Science & Environment]]></title>
+        <description><![CDATA[BBC News - Science & Environment]]></description>
+        <link>http://www.bbc.co.uk/news/</link>
+        <image>
+            <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Science &amp; Environment</title>
+            <link>http://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 02 Feb 2018 11:41:01 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Polar bears 'running out of food']]></title>
+            <description><![CDATA[Tracking collars on female polar bears measure the animals' struggle to find food on diminishing Arctic ice.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42909866</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42909866</guid>
+            <pubDate>Thu, 01 Feb 2018 19:21:21 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/3A88/production/_99848941_05ab1ff3-5f7f-400b-859a-a8de4d8c29d1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Skywatchers see 'super blue blood Moon']]></title>
+            <description><![CDATA[A blue blood supermoon and lunar eclipse across Asia heralds a year of lunar science milestones, say scientists.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42817785</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42817785</guid>
+            <pubDate>Wed, 31 Jan 2018 16:13:12 GMT</pubDate>
+            <media:thumbnail width="1680" height="945" url="http://c.files.bbci.co.uk/179BC/production/_99800769_mediaitem99800768.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Luxembourg PM watches GovSat-1 space launch]]></title>
+            <description><![CDATA[Xavier Bettel is at Cape Canaveral in Florida to see his nation's latest space project go into orbit.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42897309</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42897309</guid>
+            <pubDate>Wed, 31 Jan 2018 22:10:50 GMT</pubDate>
+            <media:thumbnail width="624" height="351" url="http://c.files.bbci.co.uk/8D43/production/_99836163_4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lobsters and crabs should not be boiled alive, say campaigners]]></title>
+            <description><![CDATA[Lobsters and crabs are sentient organisms that feel pain and need more protection, say campaigners.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42873644</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42873644</guid>
+            <pubDate>Wed, 31 Jan 2018 01:50:34 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/8CFA/production/_99809063_gettyimages-482974825.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Genetic secret of English salmon]]></title>
+            <description><![CDATA[Researchers have discovered that salmon from the chalk streams of southern England are genetically unique.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42894161</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42894161</guid>
+            <pubDate>Thu, 01 Feb 2018 02:46:35 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/A7BF/production/_99834924_chalk-streamatlanticsalmon-piccourtesyofsambillingtonenvironmentagency.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hong Kong bans ivory trade in 'historic' vote]]></title>
+            <description><![CDATA[The move by Hong Kong's lawmakers is hailed by campaigners as "a lifeline for elephants".]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-china-42891204</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-china-42891204</guid>
+            <pubDate>Wed, 31 Jan 2018 17:36:31 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/11B2C/production/_99829427_elephant.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The killer whale that can say 'hello' and 'bye bye']]></title>
+            <description><![CDATA[A killer whale that can mimic words such as "hello" is thought to be the first of its kind to copy human speech.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42877067</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42877067</guid>
+            <pubDate>Wed, 31 Jan 2018 16:29:08 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/6389/production/_99818452_wikie2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lost history of African dinosaurs revealed]]></title>
+            <description><![CDATA[A new species of dinosaur unearthed in the Egyptian desert sheds light on Africa's Age of the Dinosaurs.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42860263</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42860263</guid>
+            <pubDate>Mon, 29 Jan 2018 16:01:42 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/85BF/production/_99793243_dino1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Scrutiny over wood and coal fires in UK homes]]></title>
+            <description><![CDATA[Burning wood and coal in people's homes will come under scrutiny as part of a government drive to improve air pollution.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42873645</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42873645</guid>
+            <pubDate>Tue, 30 Jan 2018 15:35:44 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12354/production/_99808547_mediaitem99808545.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Global register lists alien species]]></title>
+            <description><![CDATA[A fifth of more than 6,000 catalogued invasive animals and plants worldwide are causing harm.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42835528</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42835528</guid>
+            <pubDate>Sat, 27 Jan 2018 00:37:44 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/07D7/production/_99770020_c0138619-american_mink_mustela_vison_-spl.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ariane rocket suffers rare launch anomaly]]></title>
+            <description><![CDATA[Europe's normally highly dependable rocket, the Ariane 5, loses contact as it flies skyward.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42623297</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42623297</guid>
+            <pubDate>Fri, 26 Jan 2018 15:08:37 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2E82/production/_99760911_2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Handheld device sequences human genome]]></title>
+            <description><![CDATA[Reading human DNA used to take laboratories, a pile of cash and a long time.]]></description>
+            <link>http://www.bbc.co.uk/news/health-42838821</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/health-42838821</guid>
+            <pubDate>Mon, 29 Jan 2018 16:40:30 GMT</pubDate>
+            <media:thumbnail width="1200" height="675" url="http://c.files.bbci.co.uk/AC7F/production/_99795144_min-pic.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[A third of coral reefs 'entangled with plastic']]></title>
+            <description><![CDATA[Plastic is one of the biggest risks to the future of coral reefs after ocean warming, say scientists.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42821004</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42821004</guid>
+            <pubDate>Fri, 26 Jan 2018 00:49:24 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/57FD/production/_99752522_lamb8hr.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Modern humans left Africa much earlier]]></title>
+            <description><![CDATA[Researchers identify the remains of the earliest known modern humans to have left Africa.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42817323</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42817323</guid>
+            <pubDate>Thu, 25 Jan 2018 19:05:31 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/0965/production/_99750420_mediaitem99750419.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Most UK bat species 'recovering or stable']]></title>
+            <description><![CDATA[Volunteer data on the country's 18 resident bat species suggests a positive outlook for the animals.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42811351</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42811351</guid>
+            <pubDate>Thu, 25 Jan 2018 13:01:26 GMT</pubDate>
+            <media:thumbnail width="464" height="261" url="http://c.files.bbci.co.uk/6120/production/_99746842_4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[First monkey clones created in Chinese laboratory]]></title>
+            <description><![CDATA[Two monkeys cloned using the 'Dolly the sheep' technique could bring the world a step closer to human cloning.]]></description>
+            <link>http://www.bbc.co.uk/news/health-42809445</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/health-42809445</guid>
+            <pubDate>Wed, 24 Jan 2018 17:19:01 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/9E0F/production/_99736404_zhongzhongandhuahua-1-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How to escape from a lion or cheetah - the science]]></title>
+            <description><![CDATA[Scientists work out how prey can escape much faster predators when hunting in the African savannah.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42792190</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42792190</guid>
+            <pubDate>Wed, 24 Jan 2018 18:26:43 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/6B1F/production/_99732472_img_1656-collared-cheetah-crop.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sound waves 'can help' early tsunami detection]]></title>
+            <description><![CDATA[People in high-risk tsunami areas could be helped by an alarm system devised by Cardiff scientists.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-wales-south-east-wales-42803111</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-wales-south-east-wales-42803111</guid>
+            <pubDate>Wed, 24 Jan 2018 21:18:09 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/082C/production/_99729020_tsunami2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Falcon Heavy: Big SpaceX rocket lights 27 engines]]></title>
+            <description><![CDATA[US firm SpaceX conducts a key test ahead of the debut flight of its new rocket - the Falcon Heavy.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42692673</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42692673</guid>
+            <pubDate>Wed, 24 Jan 2018 22:25:25 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12AF/production/_99738740_duu5pzyvaaazymp.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Disco ball' put into space from NZ]]></title>
+            <description><![CDATA[US start-up Rocket Lab says its recent launch put a reflective sphere in orbit.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42808180</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42808180</guid>
+            <pubDate>Wed, 24 Jan 2018 17:14:40 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/11259/production/_99733207_humanitystar.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Antarctica's Weddell Sea 'deserves protected status']]></title>
+            <description><![CDATA[Scientists dive into Antarctic waters to build the case for a vast new marine protected area.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42795208</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42795208</guid>
+            <pubDate>Tue, 23 Jan 2018 18:01:20 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/108C5/production/_99718776_index.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The human-elephant conflict in India's tea state Assam]]></title>
+            <description><![CDATA[How expanding tea plantations in India's Assam state are putting humans in conflict with elephants.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42733022</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42733022</guid>
+            <pubDate>Tue, 23 Jan 2018 11:43:30 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/C534/production/_99648405_teagardenassambhutan.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New Caledonian crows show how technology evolves]]></title>
+            <description><![CDATA[Clever, tool-making crows show scientists the first foundations of technological development.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42655705</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42655705</guid>
+            <pubDate>Mon, 22 Jan 2018 16:15:59 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/14CDA/production/_99701258_caledoniancrow.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why you can't judge a zebra by its stripes]]></title>
+            <description><![CDATA[Looking at a zebra's stripes may not be a good way to tell different types apart, say scientists.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42769518</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42769518</guid>
+            <pubDate>Mon, 22 Jan 2018 16:22:44 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/8501/production/_99694043_gettyimages-464523369.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Are diesel cars always the most harmful?]]></title>
+            <description><![CDATA[Some in the car industry claim that modern diesel engines have been unfairly maligned.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42666596</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42666596</guid>
+            <pubDate>Sun, 21 Jan 2018 01:15:53 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/11CD3/production/_99651927_gettyimages-835603740.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Scapa Flow microplastics levels 'similar to Forth and Clyde']]></title>
+            <description><![CDATA[Researchers at Heriot-Watt University took more than 100 sediment samples from 13 Orkney beaches.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-42731407</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-42731407</guid>
+            <pubDate>Fri, 19 Jan 2018 01:50:38 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/478B/production/_99651381_orkneybeach3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Nasa removes US astronaut from ISS mission]]></title>
+            <description><![CDATA[Jeanette Epps would have been the first African-American astronaut on the space station crew.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42747272</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42747272</guid>
+            <pubDate>Fri, 19 Jan 2018 13:22:28 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/03A8/production/_99663900_9372740338_794dd20803_k-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[2017 'warmest year without El Niño']]></title>
+            <description><![CDATA[Even with no natural climate boost, last year was the second or third hottest on record.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42736397</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42736397</guid>
+            <pubDate>Thu, 18 Jan 2018 15:30:31 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/3E8F/production/_99651061_3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Volcanic eruptions in Guatemala captured in time-lapse video]]></title>
+            <description><![CDATA[Volcan de Fuego sent ash over a mile into the sky.]]></description>
+            <link>http://www.bbc.co.uk/news/world-latin-america-42915721</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-latin-america-42915721</guid>
+            <pubDate>Fri, 02 Feb 2018 09:33:29 GMT</pubDate>
+            <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/8CE1/production/_99856063_p05ww2s0.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Polar bears captured on collar cams]]></title>
+            <description><![CDATA[High-tech tracking collars on polar bears reveal a growing Arctic struggle, say scientists.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42912650</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42912650</guid>
+            <pubDate>Thu, 01 Feb 2018 20:33:06 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/44D9/production/_99852671_p05wv1xp.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Space shuttle Columbia crew, who never came back]]></title>
+            <description><![CDATA[It's 15 years since disaster struck as the Columbia returned to Earth following a research mission.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42894001</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42894001</guid>
+            <pubDate>Thu, 01 Feb 2018 00:17:00 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/110DD/production/_99835896_p05wqq17.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The 'super blue blood Moon' across the world]]></title>
+            <description><![CDATA[Eyes around the globe have been turning to the skies to view the lunar event.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42894943</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42894943</guid>
+            <pubDate>Wed, 31 Jan 2018 17:23:44 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/1376B/production/_99832797_p05wpnkm.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Killer whale says 'hello']]></title>
+            <description><![CDATA[A killer whale is taught to mimic words such as "hello" and "bye bye" in a scientific experiment.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42888566</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42888566</guid>
+            <pubDate>Wed, 31 Jan 2018 11:15:47 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/15BB4/production/_99821098_p05wnt8d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cryonics: Your body preserved for future revival?]]></title>
+            <description><![CDATA[Arizona-based company Alcor offers cryonic preservation in the hope of reviving you in the future.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-42835119</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-42835119</guid>
+            <pubDate>Wed, 31 Jan 2018 10:49:50 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/7D84/production/_99823123_mediaitem99823120.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Boris Johnson 'is descendant' of mummified Basel woman]]></title>
+            <description><![CDATA[A Swiss woman who died in 1787 after contracting syphilis is identified as an ancestor of the politician.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-42805485</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-42805485</guid>
+            <pubDate>Thu, 25 Jan 2018 17:53:51 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1315D/production/_99737187_index.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Donald Trump's 'hatred of sharks' benefits conservation charities]]></title>
+            <description><![CDATA[Shark conservationists see donations rise after claims the US president hates the animals.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-42809865</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-42809865</guid>
+            <pubDate>Wed, 24 Jan 2018 18:12:27 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/3F2D/production/_99737161_gettyimages-92059370.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Planet rumbles]]></title>
+            <description><![CDATA[The seismic region has seen lots of activity in recent weeks, but is there anything to worry about?]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-42813832</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-42813832</guid>
+            <pubDate>Thu, 25 Jan 2018 07:03:22 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/F8D8/production/_99740736_gettyimages-165644577.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Paris, London]]></title>
+            <description><![CDATA[A partnership between Imperial College London and a major French agency will keep access to European research funding.]]></description>
+            <link>http://www.bbc.co.uk/news/business-42690438</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-42690438</guid>
+            <pubDate>Wed, 17 Jan 2018 01:38:48 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/0AEF/production/_99599720_brexitflags.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Crunch question]]></title>
+            <description><![CDATA[Insects are often portrayed as a sustainable superfood - and many are delicious.]]></description>
+            <link>http://www.bbc.co.uk/news/world-42639877</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-42639877</guid>
+            <pubDate>Thu, 18 Jan 2018 11:30:20 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12A21/production/_99612367_gettyimages-489767259locust.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hot topic]]></title>
+            <description><![CDATA[Can a series of scorching summers be blamed on climate change, and what do they tell us?]]></description>
+            <link>http://www.bbc.co.uk/news/world-australia-42657234</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-australia-42657234</guid>
+            <pubDate>Sat, 13 Jan 2018 16:28:15 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12666/production/_99566357_gettyimages-157478613.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Check your pollution]]></title>
+            <description><![CDATA[Enter your postcode to see what the air quality is like where you are living in Britain.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42566393</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42566393</guid>
+            <pubDate>Wed, 10 Jan 2018 11:08:55 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/24B0/production/_99529390_hi040793211.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How green are the Tories?]]></title>
+            <description><![CDATA[Theresa May's environment policy pledge is the latest step in the party's journey on the issue.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-politics-42654268</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-politics-42654268</guid>
+            <pubDate>Thu, 11 Jan 2018 18:15:04 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/16FE9/production/_99558149_hi002429262.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Thirsty city]]></title>
+            <description><![CDATA[With water usage and droughts across the globe rising, the race is on to manage water more efficiently.]]></description>
+            <link>http://www.bbc.co.uk/news/business-42626790</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-42626790</guid>
+            <pubDate>Fri, 12 Jan 2018 00:04:32 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4C96/production/_99560691_cape_town_getty_rt.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Kitchen welfare]]></title>
+            <description><![CDATA[In Switzerland, lobsters must now be stunned before being boiled - but do they really feel pain?]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-42647341</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-42647341</guid>
+            <pubDate>Thu, 11 Jan 2018 12:53:25 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/D0F7/production/_99559435_gettyimages-592652022.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Whale people ]]></title>
+            <description><![CDATA[A glimpse into the life the Inupiat, an indigenous community in Alaska.]]></description>
+            <link>http://www.bbc.co.uk/news/in-pictures-42399770</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/in-pictures-42399770</guid>
+            <pubDate>Wed, 03 Jan 2018 00:35:54 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/115B7/production/_99259017_iam_00083431.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Back from the brink]]></title>
+            <description><![CDATA[Heavily armed and highly trained anti-poaching patrols have helped the population's recovery.]]></description>
+            <link>http://www.bbc.co.uk/news/world-africa-42367560</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-africa-42367560</guid>
+            <pubDate>Wed, 27 Dec 2017 10:36:24 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/FDB8/production/_99225946_zakouma_michaelviljoen-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Busy year for storms]]></title>
+            <description><![CDATA[Was the remarkable 2017 hurricane season the worst ever? And did climate change play any part?]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-42251921</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-42251921</guid>
+            <pubDate>Sat, 30 Dec 2017 00:30:27 GMT</pubDate>
+            <media:thumbnail width="1640" height="922" url="http://c.files.bbci.co.uk/F7F8/production/_99108436_gettyimages-844178082.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Job done']]></title>
+            <description><![CDATA[World land-speed record-holder Andy Green reflects on the past 12 months' achievements in developing the Bloodhound supersonic car.]]></description>
+            <link>http://www.bbc.co.uk/news/science-environment-42476017</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/science-environment-42476017</guid>
+            <pubDate>Mon, 25 Dec 2017 00:58:51 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/C765/production/_99354015_bloodhoundssc-abigdragracer.jpg"/>
+        </item>
+    </channel>
+</rss>
