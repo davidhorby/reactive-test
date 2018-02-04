@@ -8,13 +8,13 @@ import org.springframework.data.mongodb.core.ReactiveMongoOperations
 import org.springframework.data.mongodb.core.collectionExists
 import org.springframework.data.mongodb.core.dropCollection
 import org.springframework.stereotype.Component
-import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
 @Component
 class ArticleInit(private val operations: ReactiveMongoOperations, private val dao: ArticleRepository) : CommandLineRunner {
 
     override fun run(vararg args: String?) {
+        println("Initialising collections")
         operations.collectionExists(Article::class)
                 .flatMap{ exists -> if (exists) operations.dropCollection(Article::class) else Mono.just(exists!!) }
                 .flatMap{ o ->
@@ -23,12 +23,13 @@ class ArticleInit(private val operations: ReactiveMongoOperations, private val d
                 }
                 .then()
                 .block()
-
-        dao.saveAll(Flux.just(Article("1", "James", "Kirk", "link", "01/01/2015"),
-                Article("2", "Jean-Luc", "Picard",  "link","01/01/2015"),
-                Article("3", "Benjamin", "Sisko", "link","01/01/2015"),
-                Article("4", "Kathryn", "Janeway",  "link","01/01/2015"),
-                Article("5", "Jonathan", "Archer",  "link","01/01/2015")))
-                .then()
-                .block()    }
+        println("Initialisation complete")
+//        dao.saveAll(Flux.just(Article("1", "James", "Kirk", "link", "01/01/2015"),
+//                Article("2", "Jean-Luc", "Picard",  "link","01/01/2015"),
+//                Article("3", "Benjamin", "Sisko", "link","01/01/2015"),
+//                Article("4", "Kathryn", "Janeway",  "link","01/01/2015"),
+//                Article("5", "Jonathan", "Archer",  "link","01/01/2015")))
+//                .then()
+//                .block()
+ }
 }

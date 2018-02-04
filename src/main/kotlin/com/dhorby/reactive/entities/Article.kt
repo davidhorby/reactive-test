@@ -32,5 +32,7 @@ class Article{
     override fun hashCode(): Int =
             (title?.length?.hashCode() ?: 1) * 31+ (description?.length ?: 0)
 
-
+    override fun toString(): String {
+        return "$id : $title : $description"
+    }
 }

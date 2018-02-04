@@ -2,6 +2,7 @@ package com.dhorby.reactive.controllers
 
 import com.dhorby.reactive.dao.ArticleRepository
 import com.dhorby.reactive.entities.Article
+import com.dhorby.reactive.services.WebService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -13,8 +14,17 @@ import reactor.core.publisher.Mono
 @RequestMapping("/")
 class MainController() {
 
+    val metricConsumer: (String) -> Unit = { message ->  println(message) }
+
     @Autowired
     private lateinit var repository:ArticleRepository
+
+    @GetMapping("/process")
+    fun processArticles():String {
+        val rrsUrl: String = "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=uk#"
+        WebService(repository).makeRequest(rrsUrl)
+        return "complete"
+    }
 
 
     @GetMapping("{id}")
@@ -25,6 +35,11 @@ class MainController() {
     @GetMapping("/articles")
     fun list(): Flux<Article> {
         return repository.findAll()
+    }
+
+    @GetMapping("/save")
+    fun save():Mono<Article> {
+        return repository.save(Article("4343", "Hello", "World", "link", "01/01/2015"));
     }
 
     @PostMapping
