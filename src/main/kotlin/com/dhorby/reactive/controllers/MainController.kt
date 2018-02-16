@@ -6,18 +6,27 @@ import com.dhorby.reactive.services.WebService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
+import org.springframework.ui.ModelMap
 import org.springframework.web.bind.annotation.*
+import org.springframework.web.servlet.ModelAndView
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
 @RestController
 @RequestMapping("/")
-class MainController() {
+class MainController {
 
     val metricConsumer: (String) -> Unit = { message ->  println(message) }
 
     @Autowired
-    private lateinit var repository:ArticleRepository
+    lateinit var repository:ArticleRepository;
+
+    @GetMapping("/hello")
+    fun hello(modelMap: ModelMap): ModelAndView {
+        val modelAndView = ModelAndView("hello")
+        modelAndView.addObject("user", "World")
+        return modelAndView
+    }
 
     @GetMapping("/process")
     fun processArticles():String {
