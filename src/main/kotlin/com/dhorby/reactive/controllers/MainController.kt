@@ -64,6 +64,8 @@ class MainController {
                 .flatMap { existingArticle ->
                     existingArticle.title = article.title
                     existingArticle.description = article.description
+                    existingArticle.link = article.link
+                    existingArticle.pubDate = article.pubDate
                     repository.save(existingArticle)
                 }
                 .map { updateArticle -> ResponseEntity(updateArticle, HttpStatus.OK) }

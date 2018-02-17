@@ -54,7 +54,7 @@ class ArticleRepositoryTest {
     }
 
     @Test
-    fun testSave() {
+    fun `save an article`() {
         var article = Article("11", "No news today", "Nothing happened", "link", "01/01/2015")
         article = dao.save(article).block(Duration.ofSeconds(2))
         assertNotNull(Objects.requireNonNull(article).id)
@@ -64,8 +64,9 @@ class ArticleRepositoryTest {
     }
 
     @Test
-    fun testUpdate() {
+    fun `update an article`() {
         var article = Article("22", "Article title", "Article title", "link", "01/01/2015")
+
         article = dao.save(article).block(Duration.ofSeconds(2))
         assertNotNull(Objects.requireNonNull(article).id)
         article.title = "New title"
@@ -77,7 +78,7 @@ class ArticleRepositoryTest {
     }
 
     @Test
-    fun findAll() {
+    fun `find all articles`() {
         val dbNames = dao.findAll()
                 .map { article -> article?.description }
                 .collect(Collectors.toList()).block()

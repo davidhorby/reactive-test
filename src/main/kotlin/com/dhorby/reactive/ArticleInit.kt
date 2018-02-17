@@ -19,7 +19,7 @@ class ArticleInit(private val operations: ReactiveMongoOperations, private val d
                 .flatMap{ exists -> if (exists) operations.dropCollection(Article::class) else Mono.just(exists!!) }
                 .flatMap{ o ->
                     operations.createCollection(Article::class.java,
-                            CollectionOptions.empty().size((1024 * 1024).toLong()).maxDocuments(100).capped())
+                            CollectionOptions.empty().size((1024 * 1024).toLong()).maxDocuments(1000))
                 }
                 .then()
                 .block()
