@@ -4,6 +4,7 @@ import com.dhorby.reactive.dao.ArticleRepository
 import com.dhorby.reactive.entities.Article
 import com.dhorby.reactive.services.WebService
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.context.ApplicationContext
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.ui.ModelMap
@@ -16,10 +17,19 @@ import reactor.core.publisher.Mono
 @RequestMapping("/")
 class MainController {
 
+    @Autowired
+    lateinit var applicationContext: ApplicationContext
+
     val metricConsumer: (String) -> Unit = { message ->  println(message) }
 
     @Autowired
     lateinit var repository:ArticleRepository;
+
+    @GetMapping("beans")
+    fun listBean(): List<String> {
+        val beanDefinitionNames: List<String> = applicationContext.getBeanDefinitionNames().asList()
+        return beanDefinitionNames
+    }
 
     @GetMapping("/hello")
     fun hello(modelMap: ModelMap): ModelAndView {
