@@ -7,29 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.ApplicationContext
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
-import org.springframework.ui.ModelMap
 import org.springframework.web.bind.annotation.*
-import org.springframework.web.servlet.ModelAndView
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
 @RestController
 @RequestMapping("/")
-class MainController {
-
-    @Autowired
-    lateinit var applicationContext: ApplicationContext
-
-    val metricConsumer: (String) -> Unit = { message ->  println(message) }
-
-    @Autowired
-    lateinit var repository:ArticleRepository;
-
-    @GetMapping("beans")
-    fun listBean(): List<String> {
-        val beanDefinitionNames: List<String> = applicationContext.getBeanDefinitionNames().asList()
-        return beanDefinitionNames
-    }
+class MainController(val repository:ArticleRepository){
 
     @GetMapping("/process")
     fun processArticles():String {
@@ -37,7 +21,6 @@ class MainController {
         WebService(repository).makeRequest(rrsUrl)
         return "complete"
     }
-
 
     @GetMapping("{id}")
     fun getArticle(@PathVariable id: String): Mono<Article> {
