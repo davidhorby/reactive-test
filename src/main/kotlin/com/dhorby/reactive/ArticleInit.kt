@@ -23,7 +23,7 @@ class ArticleInit(private val operations: ReactiveMongoOperations, private val d
                 }
                 .then()
                 .block()
-        println("Initialisation complete")
+
 //        dao.saveAll(Flux.just(Article("1", "James", "Kirk", "link", "01/01/2015"),
 //                Article("2", "Jean-Luc", "Picard",  "link","01/01/2015"),
 //                Article("3", "Benjamin", "Sisko", "link","01/01/2015"),

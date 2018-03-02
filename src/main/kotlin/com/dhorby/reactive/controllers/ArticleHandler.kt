@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono
 @Component
 class ArticleHandler {
 
-    private val  repository: ArticleRepository
+    private val repository: ArticleRepository
 
     constructor(repository: ArticleRepository) {
         this.repository = repository

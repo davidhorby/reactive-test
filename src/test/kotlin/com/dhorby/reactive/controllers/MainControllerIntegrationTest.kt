@@ -7,11 +7,10 @@ import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.ArgumentMatchers.any
-import org.mockito.Mockito.mock
-import org.mockito.junit.MockitoJUnitRunner
+import org.mockito.MockitoAnnotations
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
+import org.springframework.boot.test.mock.mockito.MockBean
 import org.springframework.http.MediaType
 import org.springframework.test.context.junit4.SpringRunner
 import org.springframework.test.web.servlet.MockMvc
@@ -20,9 +19,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers.*
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
 import org.springframework.web.context.WebApplicationContext
-import org.mockito.MockitoAnnotations
-import org.springframework.boot.test.mock.mockito.MockBean
-import reactor.core.publisher.Mono
 
 
 @RunWith(SpringRunner::class)
@@ -58,7 +54,7 @@ class MainControllerIntegrationTest {
     @Test
     @Ignore
     fun `should save an article`() {
-//        val article = " title=\"The title\" description=\"description\" link=\"link\" pubDate=“pubDate\""
+
         val article = Article("1", "Title 1", "Desc 1", "link", "01/01/2015")
 
 

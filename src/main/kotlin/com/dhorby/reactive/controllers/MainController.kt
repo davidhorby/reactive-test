@@ -31,13 +31,6 @@ class MainController {
         return beanDefinitionNames
     }
 
-    @GetMapping("/hello")
-    fun hello(modelMap: ModelMap): ModelAndView {
-        val modelAndView = ModelAndView("hello")
-        modelAndView.addObject("user", "World")
-        return modelAndView
-    }
-
     @GetMapping("/process")
     fun processArticles():String {
         val rrsUrl: String = "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=uk#"
