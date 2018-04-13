@@ -66,3 +66,12 @@ dependencies {
     testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
 
 }
+
+test {
+	//we want display the following test events
+	testLogging {
+		events "PASSED", "STARTED", "FAILED", "SKIPPED"
+		exceptionFormat "short"
+		info.events = ["failed", "skipped"]
+	}
+}
